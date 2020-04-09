@@ -26,19 +26,8 @@ public class Ahorcado {
         		break;
         	default:
         		resultado = a / b;
-        		break;
         }
         
-        if(opcion.equals(1)){
-            
-        }else if(opcion.equals(2)){
-            
-        }else if(opcion.equals(3)){
-            
-        }else{
-            
-        }
-
         System.out.println("El resultado es " + resultado.toString());
     }
 }
