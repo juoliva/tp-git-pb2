@@ -14,14 +14,29 @@ public class Ahorcado {
         System.out.println("Ingrese el segundo numero");
         a = teclado.next();
 
+        switch(opcion) {
+        	case 1:
+        		resultado = a + b;
+        		break;
+        	case 2:
+        		resultado = a - b;
+        		break;
+        	case 3:
+        		resultado = a * b;
+        		break;
+        	default:
+        		resultado = a / b;
+        		break;
+        }
+        
         if(opcion.equals(1)){
-            resultado = a + b;
+            
         }else if(opcion.equals(2)){
-            resultado = a - b;
+            
         }else if(opcion.equals(3)){
-            resultado = a * b;
+            
         }else{
-            resultado = a / b;
+            
         }
 
         System.out.println("El resultado es " + resultado.toString());
